@@ -1,4 +1,0 @@
-import sys
-print(sys.argv)
-def avg(iterable):
-    return sum(iterable) / float(len(iterable))
