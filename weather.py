@@ -2,7 +2,7 @@ import argparse
 import json
 import requests
 
-KEY = 'e68b4f9fad0d3fd21e7a91c950c75b3c'
+KEY = open('key.txt').read().strip()
 URL = 'http://api.openweathermap.org/data/2.5/weather'
 DEFAULT_ZIP = '68127,us'
 DEFAULT_UNITS = 'metric'

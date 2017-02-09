@@ -1,3 +1,14 @@
+"""
+Input: string of text
+Output: the most similar word to others
+Calculated by four criteria:
+- first letter (10 points)
+- last letter (10 points)
+- length (30 points)
+- common letters (50 points)
+"""
+
+
 def find_word(message):
     words = message.lower().split(' ')
     coefs = {
@@ -53,4 +64,6 @@ def find_word(message):
 
     return max_median[0]
 
-print find_word("The Doors of Durin, Lord of Moria. Speak friend and enter. Narvi made them. Celebrimbor of Hollin drew these signs")
+print find_word(
+    "The Doors of Durin, Lord of Moria. Speak friend and enter. Narvi made them. Celebrimbor of Hollin drew these signs"
+)
