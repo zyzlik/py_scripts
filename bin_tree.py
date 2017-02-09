@@ -1,3 +1,7 @@
+"""
+My first implementation of binary search tree, based on its definition
+"""
+
 class Node:
     def __init__(self, key, value, left=None, right=None, parent=None):
         self.left = left
