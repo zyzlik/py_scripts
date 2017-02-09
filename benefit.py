@@ -6,7 +6,8 @@ etc.
 We should find the most profitable way when to buy and to sell
 for example, [100, 120, 150, 135, 99] - better to buy by price of 100
 and to sell when then price is 150. So, we got 50 as benefit
-The function returns max benefit
+The function returns max benefit or -1 if it's impossible, like here:
+[100, 90, 80, 70, 60]
 """
 
 l = [260, 255, 245, 240, 235]
