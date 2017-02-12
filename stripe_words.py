@@ -1,3 +1,9 @@
+"""
+Checks, how many words consists of sequence like:
+VOWEL, CONSONANT, VOWEL, CONSONANT etc
+"""
+
+
 VOWELS = "AEIOUY"
 CONSONANTS = "BCDFGHJKLMNPQRSTVWXZ"
 
